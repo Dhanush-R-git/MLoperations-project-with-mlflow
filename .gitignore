@@ -163,3 +163,4 @@ cython_debug/
 
 artifacts/*
 mlenv9.6.24/*
+.vscode/*

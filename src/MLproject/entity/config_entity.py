@@ -19,3 +19,9 @@ local_data_file: The local path where the downloaded data file will be saved, sp
 unzip_dir: The directory where the data will be unzipped, specified as a Path object.
 
 '''
+@dataclass(frozen=True)
+class DataValidationConfig:
+   root_dir: Path
+   STATUS_FILE: str
+   unzip_data_dir: Path
+   all_schema: dict
