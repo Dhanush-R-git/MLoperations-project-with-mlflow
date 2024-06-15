@@ -1,4 +1,3 @@
-from ast import main
 from MLproject.config.configuration import ConfigurationManager
 from MLproject.components.Data_ingestion import DataIngestion
 from MLproject import logger

@@ -4,13 +4,13 @@ from pathlib import Path
 
 @dataclass(frozen=True)
 class DataIngestionConfig:
-   root_dir: Path
-   source_URL: str
+   root_dir: Path #root_dir: 'artifacts/data_ingestion'
+   source_URL: str #'artifacts/data_ingestion/data.zip'
    local_data_file: Path
-   unzip_dir: Path
-   print("sucessfully runned")
+   unzip_dir: Path #'artifacts/data_ingestion'
+   
 
-# Data class called DataIngestionConfig is used to store configuration settings for the data ingestion process in a structured way.
+# Data class called DataIngestionConfig is used to store configuration settings [config.yaml] file for the data ingestion process in a structured way.
 '''
 @dataclass(frozen=True): The frozen=True parameter makes the instances of this class immutable, meaning their fields cannot be modified after they are created.
 root_dir: The root directory for data ingestion, specified as a Path object.
