@@ -19,16 +19,16 @@
 Clone the repository
 
 ```bash
-https://github.com/Dhanush-R0987/mlops-project-with-mlflow
+https://github.com/Dhanush-R-git/MLoperations-project-with-mlflow
 ```
 ### Create a conda environment after opening the repository
 
 ```bash
-conda create -n mlenv python=3.11 -y
+conda create -n ml.env.0.0.0 python=3.11.7 -y
 ```
 
 ```bash
-conda activate mlenv
+conda activate ml.env.0.0.0
 ```
 
 ### install the requirements
@@ -88,8 +88,5 @@ echo $env:MLFLOW_TRACKING_USERNAME
 echo $env:MLFLOW_TRACKING_PASSWORD
 
 ```
-
-
-
 
 
