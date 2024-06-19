@@ -1,4 +1,4 @@
-# mlops-project-with-mlflow
+# MLoperations-project-with-mlflow
 
 ## Workflows
 
@@ -57,7 +57,7 @@ open up you local host and port
 [dagshub]-->(https://dagshub.com/)
 
 
-MLFLOW_TRACKING_URI=https://dagshub.com/Dhanush-R5/mlops-project-with-mlflow.mlflow \
+MLFLOW_TRACKING_URI=https://dagshub.com/Dhanush-R5/MLoperations-project-with-mlflow.mlflow \
 MLFLOW_TRACKING_USERNAME= Dhanush-R5 \
 MLFLOW_TRACKING_PASSWORD= PfpmJcTM5DJS7@9 \
 python script.py
@@ -66,9 +66,9 @@ Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/Dhanush-R5/mlops-project-with-mlflow.mlflow 
+export MLFLOW_TRACKING_URI=https://dagshub.com/Dhanush-R5/MLoperations-project-with-mlflow.mlflow 
 or
-$env:MLFLOW_TRACKING_URI = "https://dagshub.com/Dhanush-R5/mlops-project-with-mlflow.mlflow"
+$env:MLFLOW_TRACKING_URI = "https://dagshub.com/Dhanush-R5/MLoperations-project-with-mlflow.mlflow"
 
 export MLFLOW_TRACKING_USERNAME=Dhanush-R5
 or

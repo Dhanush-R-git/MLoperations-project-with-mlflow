@@ -1,5 +1,5 @@
 import os
-import urllib.request as request
+import urllib.request_1 as request
 import zipfile
 from MLproject import logger
 from MLproject.utils.common import get_size
