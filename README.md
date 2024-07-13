@@ -171,3 +171,7 @@ MLflow
  - Its Production Grade
  - Trace all of your expriements
  - Logging & tagging your model
+
+ 
+note:
+The project is uncompleted, the project is till process for deployment
