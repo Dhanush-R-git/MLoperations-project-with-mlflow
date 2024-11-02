@@ -57,26 +57,26 @@ open up you local host and port
 [dagshub]-->(https://dagshub.com/)
 
 
-MLFLOW_TRACKING_URI=https://dagshub.com/Dhanush-R5/MLoperations-project-with-mlflow.mlflow \
-MLFLOW_TRACKING_USERNAME= Dhanush-R5 \
-MLFLOW_TRACKING_PASSWORD= PfpmJcTM5DJS7@9 \
+MLFLOW_TRACKING_URI=https://dagshub.com/user-name/MLoperations-project-with-mlflow.mlflow \
+MLFLOW_TRACKING_USERNAME= user-name \
+MLFLOW_TRACKING_PASSWORD= xxxxxxxxxxx \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/Dhanush-R5/MLoperations-project-with-mlflow.mlflow 
+export MLFLOW_TRACKING_URI=https://dagshub.com/user-name/MLoperations-project-with-mlflow.mlflow 
 or
-$env:MLFLOW_TRACKING_URI = "https://dagshub.com/Dhanush-R5/MLoperations-project-with-mlflow.mlflow"
+$env:MLFLOW_TRACKING_URI = "https://dagshub.com/user-name/MLoperations-project-with-mlflow.mlflow"
 
-export MLFLOW_TRACKING_USERNAME=Dhanush-R5
+export MLFLOW_TRACKING_USERNAME=user-name
 or
-$env:MLFLOW_TRACKING_USERNAME="Dhanush-R5"
+$env:MLFLOW_TRACKING_USERNAME="user-name"
 
-export MLFLOW_TRACKING_PASSWORD=PfpmJcTM5DJS7@9
+export MLFLOW_TRACKING_PASSWORD=xxxxxxxxxxxx
 or
-$env:MLFLOW_TRACKING_PASSWORD="PfpmJcTM5DJS7@9"
+$env:MLFLOW_TRACKING_PASSWORD="xxxxxxxxxxxxx"
 
 ```
 To verify
