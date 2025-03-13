@@ -94,9 +94,6 @@ wine_quality_prediction_system(model developing-to-deployment)/
 7. Update the pipeline 
 8. Update the main.py
 9. Update the app.py
-
-
-
 ## How to run?
 
 Clone the repository
@@ -131,13 +128,13 @@ open up you local host and port
 
 ## MLflow
 
-[Documentation]-->(https://mlflow.org/docs/latest/index.html)
+[Documentation](https://mlflow.org/docs/latest/index.html)
 
 ##### cmd
 - mlflow ui
 
-### dagshub
-[dagshub]-->(https://dagshub.com/)
+## dagshub
+[dagshub](https://dagshub.com/)
 
 
 MLFLOW_TRACKING_URI=https://dagshub.com/user-name/MLoperations-project-with-mlflow.mlflow \
@@ -229,11 +226,11 @@ echo $env:MLFLOW_TRACKING_PASSWORD
 
 	newgrp docker
 	
-# 6. Configure EC2 as self-hosted runner:
+## 6. Configure EC2 as self-hosted runner:
     setting>actions>runner>new self hosted runner> choose os> then run command one by one
 
 
-# 7. Setup github secrets:
+## 7. Setup github secrets:
 
     AWS_ACCESS_KEY_ID=
 
